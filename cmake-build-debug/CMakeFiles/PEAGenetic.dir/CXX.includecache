@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Projects/PEAGenetic/src/FileLoader/FileLoader.cpp
+FileLoader.hpp
+D:/Projects/PEAGenetic/src/FileLoader/FileLoader.hpp
+fstream
+-
+cmath
+-
+iostream
+-
+string
+-
+
+D:/Projects/PEAGenetic/src/FileLoader/FileLoader.hpp
+vector
+-
+memory
+-
+
+D:/Projects/PEAGenetic/src/main.cpp
+iostream
+-
+FileLoader/FileLoader.hpp
+D:/Projects/PEAGenetic/src/FileLoader/FileLoader.hpp
+
