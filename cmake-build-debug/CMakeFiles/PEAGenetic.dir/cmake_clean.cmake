@@ -1,6 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/PEAGenetic.dir/src/main.cpp.obj"
   "CMakeFiles/PEAGenetic.dir/src/FileLoader/FileLoader.cpp.obj"
+  "CMakeFiles/PEAGenetic.dir/src/genetic/controller/Main.cpp.obj"
+  "CMakeFiles/PEAGenetic.dir/src/genetic/holder/ResourceHolder.cpp.obj"
+  "CMakeFiles/PEAGenetic.dir/src/genetic/algorithm/Analyser.cpp.obj"
   "PEAGenetic.pdb"
   "PEAGenetic.exe"
   "PEAGenetic.exe.manifest"

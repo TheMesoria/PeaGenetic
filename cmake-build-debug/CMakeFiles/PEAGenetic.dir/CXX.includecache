@@ -24,9 +24,35 @@ vector
 memory
 -
 
+D:/Projects/PEAGenetic/src/genetic/controller/Main.cpp
+iostream
+-
+Main.hpp
+D:/Projects/PEAGenetic/src/genetic/controller/Main.hpp
+../holder/ResourceHolder.hpp
+D:/Projects/PEAGenetic/src/genetic/holder/ResourceHolder.hpp
+
+D:/Projects/PEAGenetic/src/genetic/controller/Main.hpp
+
+D:/Projects/PEAGenetic/src/genetic/holder/ResourceHolder.cpp
+ctime
+-
+iostream
+-
+ResourceHolder.hpp
+D:/Projects/PEAGenetic/src/genetic/holder/ResourceHolder.hpp
+
+D:/Projects/PEAGenetic/src/genetic/holder/ResourceHolder.hpp
+list
+-
+../../FileLoader/FileLoader.hpp
+D:/Projects/PEAGenetic/src/FileLoader/FileLoader.hpp
+
 D:/Projects/PEAGenetic/src/main.cpp
 iostream
 -
 FileLoader/FileLoader.hpp
 D:/Projects/PEAGenetic/src/FileLoader/FileLoader.hpp
+genetic/controller/Main.hpp
+D:/Projects/PEAGenetic/src/genetic/controller/Main.hpp
 

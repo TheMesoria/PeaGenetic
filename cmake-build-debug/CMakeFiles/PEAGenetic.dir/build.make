@@ -104,21 +104,99 @@ CMakeFiles/PEAGenetic.dir/src/FileLoader/FileLoader.cpp.obj.provides: CMakeFiles
 CMakeFiles/PEAGenetic.dir/src/FileLoader/FileLoader.cpp.obj.provides.build: CMakeFiles/PEAGenetic.dir/src/FileLoader/FileLoader.cpp.obj
 
 
+CMakeFiles/PEAGenetic.dir/src/genetic/controller/Main.cpp.obj: CMakeFiles/PEAGenetic.dir/flags.make
+CMakeFiles/PEAGenetic.dir/src/genetic/controller/Main.cpp.obj: ../src/genetic/controller/Main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\PEAGenetic\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PEAGenetic.dir/src/genetic/controller/Main.cpp.obj"
+	D:\Depos\MinGW\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PEAGenetic.dir\src\genetic\controller\Main.cpp.obj -c D:\Projects\PEAGenetic\src\genetic\controller\Main.cpp
+
+CMakeFiles/PEAGenetic.dir/src/genetic/controller/Main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PEAGenetic.dir/src/genetic/controller/Main.cpp.i"
+	D:\Depos\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\PEAGenetic\src\genetic\controller\Main.cpp > CMakeFiles\PEAGenetic.dir\src\genetic\controller\Main.cpp.i
+
+CMakeFiles/PEAGenetic.dir/src/genetic/controller/Main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PEAGenetic.dir/src/genetic/controller/Main.cpp.s"
+	D:\Depos\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\PEAGenetic\src\genetic\controller\Main.cpp -o CMakeFiles\PEAGenetic.dir\src\genetic\controller\Main.cpp.s
+
+CMakeFiles/PEAGenetic.dir/src/genetic/controller/Main.cpp.obj.requires:
+
+.PHONY : CMakeFiles/PEAGenetic.dir/src/genetic/controller/Main.cpp.obj.requires
+
+CMakeFiles/PEAGenetic.dir/src/genetic/controller/Main.cpp.obj.provides: CMakeFiles/PEAGenetic.dir/src/genetic/controller/Main.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\PEAGenetic.dir\build.make CMakeFiles/PEAGenetic.dir/src/genetic/controller/Main.cpp.obj.provides.build
+.PHONY : CMakeFiles/PEAGenetic.dir/src/genetic/controller/Main.cpp.obj.provides
+
+CMakeFiles/PEAGenetic.dir/src/genetic/controller/Main.cpp.obj.provides.build: CMakeFiles/PEAGenetic.dir/src/genetic/controller/Main.cpp.obj
+
+
+CMakeFiles/PEAGenetic.dir/src/genetic/holder/ResourceHolder.cpp.obj: CMakeFiles/PEAGenetic.dir/flags.make
+CMakeFiles/PEAGenetic.dir/src/genetic/holder/ResourceHolder.cpp.obj: ../src/genetic/holder/ResourceHolder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\PEAGenetic\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PEAGenetic.dir/src/genetic/holder/ResourceHolder.cpp.obj"
+	D:\Depos\MinGW\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PEAGenetic.dir\src\genetic\holder\ResourceHolder.cpp.obj -c D:\Projects\PEAGenetic\src\genetic\holder\ResourceHolder.cpp
+
+CMakeFiles/PEAGenetic.dir/src/genetic/holder/ResourceHolder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PEAGenetic.dir/src/genetic/holder/ResourceHolder.cpp.i"
+	D:\Depos\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\PEAGenetic\src\genetic\holder\ResourceHolder.cpp > CMakeFiles\PEAGenetic.dir\src\genetic\holder\ResourceHolder.cpp.i
+
+CMakeFiles/PEAGenetic.dir/src/genetic/holder/ResourceHolder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PEAGenetic.dir/src/genetic/holder/ResourceHolder.cpp.s"
+	D:\Depos\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\PEAGenetic\src\genetic\holder\ResourceHolder.cpp -o CMakeFiles\PEAGenetic.dir\src\genetic\holder\ResourceHolder.cpp.s
+
+CMakeFiles/PEAGenetic.dir/src/genetic/holder/ResourceHolder.cpp.obj.requires:
+
+.PHONY : CMakeFiles/PEAGenetic.dir/src/genetic/holder/ResourceHolder.cpp.obj.requires
+
+CMakeFiles/PEAGenetic.dir/src/genetic/holder/ResourceHolder.cpp.obj.provides: CMakeFiles/PEAGenetic.dir/src/genetic/holder/ResourceHolder.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\PEAGenetic.dir\build.make CMakeFiles/PEAGenetic.dir/src/genetic/holder/ResourceHolder.cpp.obj.provides.build
+.PHONY : CMakeFiles/PEAGenetic.dir/src/genetic/holder/ResourceHolder.cpp.obj.provides
+
+CMakeFiles/PEAGenetic.dir/src/genetic/holder/ResourceHolder.cpp.obj.provides.build: CMakeFiles/PEAGenetic.dir/src/genetic/holder/ResourceHolder.cpp.obj
+
+
+CMakeFiles/PEAGenetic.dir/src/genetic/algorithm/Analyser.cpp.obj: CMakeFiles/PEAGenetic.dir/flags.make
+CMakeFiles/PEAGenetic.dir/src/genetic/algorithm/Analyser.cpp.obj: ../src/genetic/algorithm/Analyser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\PEAGenetic\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PEAGenetic.dir/src/genetic/algorithm/Analyser.cpp.obj"
+	D:\Depos\MinGW\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PEAGenetic.dir\src\genetic\algorithm\Analyser.cpp.obj -c D:\Projects\PEAGenetic\src\genetic\algorithm\Analyser.cpp
+
+CMakeFiles/PEAGenetic.dir/src/genetic/algorithm/Analyser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PEAGenetic.dir/src/genetic/algorithm/Analyser.cpp.i"
+	D:\Depos\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\PEAGenetic\src\genetic\algorithm\Analyser.cpp > CMakeFiles\PEAGenetic.dir\src\genetic\algorithm\Analyser.cpp.i
+
+CMakeFiles/PEAGenetic.dir/src/genetic/algorithm/Analyser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PEAGenetic.dir/src/genetic/algorithm/Analyser.cpp.s"
+	D:\Depos\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\PEAGenetic\src\genetic\algorithm\Analyser.cpp -o CMakeFiles\PEAGenetic.dir\src\genetic\algorithm\Analyser.cpp.s
+
+CMakeFiles/PEAGenetic.dir/src/genetic/algorithm/Analyser.cpp.obj.requires:
+
+.PHONY : CMakeFiles/PEAGenetic.dir/src/genetic/algorithm/Analyser.cpp.obj.requires
+
+CMakeFiles/PEAGenetic.dir/src/genetic/algorithm/Analyser.cpp.obj.provides: CMakeFiles/PEAGenetic.dir/src/genetic/algorithm/Analyser.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\PEAGenetic.dir\build.make CMakeFiles/PEAGenetic.dir/src/genetic/algorithm/Analyser.cpp.obj.provides.build
+.PHONY : CMakeFiles/PEAGenetic.dir/src/genetic/algorithm/Analyser.cpp.obj.provides
+
+CMakeFiles/PEAGenetic.dir/src/genetic/algorithm/Analyser.cpp.obj.provides.build: CMakeFiles/PEAGenetic.dir/src/genetic/algorithm/Analyser.cpp.obj
+
+
 # Object files for target PEAGenetic
 PEAGenetic_OBJECTS = \
 "CMakeFiles/PEAGenetic.dir/src/main.cpp.obj" \
-"CMakeFiles/PEAGenetic.dir/src/FileLoader/FileLoader.cpp.obj"
+"CMakeFiles/PEAGenetic.dir/src/FileLoader/FileLoader.cpp.obj" \
+"CMakeFiles/PEAGenetic.dir/src/genetic/controller/Main.cpp.obj" \
+"CMakeFiles/PEAGenetic.dir/src/genetic/holder/ResourceHolder.cpp.obj" \
+"CMakeFiles/PEAGenetic.dir/src/genetic/algorithm/Analyser.cpp.obj"
 
 # External object files for target PEAGenetic
 PEAGenetic_EXTERNAL_OBJECTS =
 
 PEAGenetic.exe: CMakeFiles/PEAGenetic.dir/src/main.cpp.obj
 PEAGenetic.exe: CMakeFiles/PEAGenetic.dir/src/FileLoader/FileLoader.cpp.obj
+PEAGenetic.exe: CMakeFiles/PEAGenetic.dir/src/genetic/controller/Main.cpp.obj
+PEAGenetic.exe: CMakeFiles/PEAGenetic.dir/src/genetic/holder/ResourceHolder.cpp.obj
+PEAGenetic.exe: CMakeFiles/PEAGenetic.dir/src/genetic/algorithm/Analyser.cpp.obj
 PEAGenetic.exe: CMakeFiles/PEAGenetic.dir/build.make
 PEAGenetic.exe: CMakeFiles/PEAGenetic.dir/linklibs.rsp
 PEAGenetic.exe: CMakeFiles/PEAGenetic.dir/objects1.rsp
 PEAGenetic.exe: CMakeFiles/PEAGenetic.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Projects\PEAGenetic\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable PEAGenetic.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Projects\PEAGenetic\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable PEAGenetic.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\PEAGenetic.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -128,6 +206,9 @@ CMakeFiles/PEAGenetic.dir/build: PEAGenetic.exe
 
 CMakeFiles/PEAGenetic.dir/requires: CMakeFiles/PEAGenetic.dir/src/main.cpp.obj.requires
 CMakeFiles/PEAGenetic.dir/requires: CMakeFiles/PEAGenetic.dir/src/FileLoader/FileLoader.cpp.obj.requires
+CMakeFiles/PEAGenetic.dir/requires: CMakeFiles/PEAGenetic.dir/src/genetic/controller/Main.cpp.obj.requires
+CMakeFiles/PEAGenetic.dir/requires: CMakeFiles/PEAGenetic.dir/src/genetic/holder/ResourceHolder.cpp.obj.requires
+CMakeFiles/PEAGenetic.dir/requires: CMakeFiles/PEAGenetic.dir/src/genetic/algorithm/Analyser.cpp.obj.requires
 
 .PHONY : CMakeFiles/PEAGenetic.dir/requires
 

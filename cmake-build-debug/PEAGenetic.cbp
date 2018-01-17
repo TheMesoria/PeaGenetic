@@ -86,6 +86,24 @@
 		<Unit filename="D:/Projects/PEAGenetic/src/FileLoader/FileLoader.hpp">
 			<Option target="PEAGenetic"/>
 		</Unit>
+		<Unit filename="D:/Projects/PEAGenetic/src/genetic/algorithm/Analyser.cpp">
+			<Option target="PEAGenetic"/>
+		</Unit>
+		<Unit filename="D:/Projects/PEAGenetic/src/genetic/algorithm/Analyser.hpp">
+			<Option target="PEAGenetic"/>
+		</Unit>
+		<Unit filename="D:/Projects/PEAGenetic/src/genetic/controller/Main.cpp">
+			<Option target="PEAGenetic"/>
+		</Unit>
+		<Unit filename="D:/Projects/PEAGenetic/src/genetic/controller/Main.hpp">
+			<Option target="PEAGenetic"/>
+		</Unit>
+		<Unit filename="D:/Projects/PEAGenetic/src/genetic/holder/ResourceHolder.cpp">
+			<Option target="PEAGenetic"/>
+		</Unit>
+		<Unit filename="D:/Projects/PEAGenetic/src/genetic/holder/ResourceHolder.hpp">
+			<Option target="PEAGenetic"/>
+		</Unit>
 		<Unit filename="D:/Projects/PEAGenetic/src/main.cpp">
 			<Option target="PEAGenetic"/>
 		</Unit>

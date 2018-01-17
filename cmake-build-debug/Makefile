@@ -149,6 +149,87 @@ src/FileLoader/FileLoader.cpp.s:
 	$(MAKE) -f CMakeFiles\PEAGenetic.dir\build.make CMakeFiles/PEAGenetic.dir/src/FileLoader/FileLoader.cpp.s
 .PHONY : src/FileLoader/FileLoader.cpp.s
 
+src/genetic/algorithm/Analyser.obj: src/genetic/algorithm/Analyser.cpp.obj
+
+.PHONY : src/genetic/algorithm/Analyser.obj
+
+# target to build an object file
+src/genetic/algorithm/Analyser.cpp.obj:
+	$(MAKE) -f CMakeFiles\PEAGenetic.dir\build.make CMakeFiles/PEAGenetic.dir/src/genetic/algorithm/Analyser.cpp.obj
+.PHONY : src/genetic/algorithm/Analyser.cpp.obj
+
+src/genetic/algorithm/Analyser.i: src/genetic/algorithm/Analyser.cpp.i
+
+.PHONY : src/genetic/algorithm/Analyser.i
+
+# target to preprocess a source file
+src/genetic/algorithm/Analyser.cpp.i:
+	$(MAKE) -f CMakeFiles\PEAGenetic.dir\build.make CMakeFiles/PEAGenetic.dir/src/genetic/algorithm/Analyser.cpp.i
+.PHONY : src/genetic/algorithm/Analyser.cpp.i
+
+src/genetic/algorithm/Analyser.s: src/genetic/algorithm/Analyser.cpp.s
+
+.PHONY : src/genetic/algorithm/Analyser.s
+
+# target to generate assembly for a file
+src/genetic/algorithm/Analyser.cpp.s:
+	$(MAKE) -f CMakeFiles\PEAGenetic.dir\build.make CMakeFiles/PEAGenetic.dir/src/genetic/algorithm/Analyser.cpp.s
+.PHONY : src/genetic/algorithm/Analyser.cpp.s
+
+src/genetic/controller/Main.obj: src/genetic/controller/Main.cpp.obj
+
+.PHONY : src/genetic/controller/Main.obj
+
+# target to build an object file
+src/genetic/controller/Main.cpp.obj:
+	$(MAKE) -f CMakeFiles\PEAGenetic.dir\build.make CMakeFiles/PEAGenetic.dir/src/genetic/controller/Main.cpp.obj
+.PHONY : src/genetic/controller/Main.cpp.obj
+
+src/genetic/controller/Main.i: src/genetic/controller/Main.cpp.i
+
+.PHONY : src/genetic/controller/Main.i
+
+# target to preprocess a source file
+src/genetic/controller/Main.cpp.i:
+	$(MAKE) -f CMakeFiles\PEAGenetic.dir\build.make CMakeFiles/PEAGenetic.dir/src/genetic/controller/Main.cpp.i
+.PHONY : src/genetic/controller/Main.cpp.i
+
+src/genetic/controller/Main.s: src/genetic/controller/Main.cpp.s
+
+.PHONY : src/genetic/controller/Main.s
+
+# target to generate assembly for a file
+src/genetic/controller/Main.cpp.s:
+	$(MAKE) -f CMakeFiles\PEAGenetic.dir\build.make CMakeFiles/PEAGenetic.dir/src/genetic/controller/Main.cpp.s
+.PHONY : src/genetic/controller/Main.cpp.s
+
+src/genetic/holder/ResourceHolder.obj: src/genetic/holder/ResourceHolder.cpp.obj
+
+.PHONY : src/genetic/holder/ResourceHolder.obj
+
+# target to build an object file
+src/genetic/holder/ResourceHolder.cpp.obj:
+	$(MAKE) -f CMakeFiles\PEAGenetic.dir\build.make CMakeFiles/PEAGenetic.dir/src/genetic/holder/ResourceHolder.cpp.obj
+.PHONY : src/genetic/holder/ResourceHolder.cpp.obj
+
+src/genetic/holder/ResourceHolder.i: src/genetic/holder/ResourceHolder.cpp.i
+
+.PHONY : src/genetic/holder/ResourceHolder.i
+
+# target to preprocess a source file
+src/genetic/holder/ResourceHolder.cpp.i:
+	$(MAKE) -f CMakeFiles\PEAGenetic.dir\build.make CMakeFiles/PEAGenetic.dir/src/genetic/holder/ResourceHolder.cpp.i
+.PHONY : src/genetic/holder/ResourceHolder.cpp.i
+
+src/genetic/holder/ResourceHolder.s: src/genetic/holder/ResourceHolder.cpp.s
+
+.PHONY : src/genetic/holder/ResourceHolder.s
+
+# target to generate assembly for a file
+src/genetic/holder/ResourceHolder.cpp.s:
+	$(MAKE) -f CMakeFiles\PEAGenetic.dir\build.make CMakeFiles/PEAGenetic.dir/src/genetic/holder/ResourceHolder.cpp.s
+.PHONY : src/genetic/holder/ResourceHolder.cpp.s
+
 src/main.obj: src/main.cpp.obj
 
 .PHONY : src/main.obj
@@ -188,6 +269,15 @@ help:
 	@echo ... src/FileLoader/FileLoader.obj
 	@echo ... src/FileLoader/FileLoader.i
 	@echo ... src/FileLoader/FileLoader.s
+	@echo ... src/genetic/algorithm/Analyser.obj
+	@echo ... src/genetic/algorithm/Analyser.i
+	@echo ... src/genetic/algorithm/Analyser.s
+	@echo ... src/genetic/controller/Main.obj
+	@echo ... src/genetic/controller/Main.i
+	@echo ... src/genetic/controller/Main.s
+	@echo ... src/genetic/holder/ResourceHolder.obj
+	@echo ... src/genetic/holder/ResourceHolder.i
+	@echo ... src/genetic/holder/ResourceHolder.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
