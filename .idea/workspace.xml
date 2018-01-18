@@ -13,11 +13,11 @@
   <component name="ChangeListManager">
     <list default="true" id="96624bc2-8361-41c7-b36e-0c90ea3b5052" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PEAGenetic.dir/objects.a" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PEAGenetic.dir/objects.a" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PEAGenetic.dir/src/FileLoader/FileLoader.cpp.obj" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PEAGenetic.dir/src/FileLoader/FileLoader.cpp.obj" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/PEAGenetic.exe" afterPath="$PROJECT_DIR$/cmake-build-debug/PEAGenetic.exe" />
-      <change beforePath="$PROJECT_DIR$/src/FileLoader/FileLoader.cpp" afterPath="$PROJECT_DIR$/src/FileLoader/FileLoader.cpp" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/PEAGenetic.dir/src/genetic/algorithm/Analyser.cpp.o" afterPath="$PROJECT_DIR$/bin/CMakeFiles/PEAGenetic.dir/src/genetic/algorithm/Analyser.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/PEAGenetic.dir/src/genetic/holder/ResourceHolder.cpp.o" afterPath="$PROJECT_DIR$/bin/CMakeFiles/PEAGenetic.dir/src/genetic/holder/ResourceHolder.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/bin/PEAGenetic" afterPath="$PROJECT_DIR$/bin/PEAGenetic" />
       <change beforePath="$PROJECT_DIR$/src/genetic/algorithm/Analyser.cpp" afterPath="$PROJECT_DIR$/src/genetic/algorithm/Analyser.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/genetic/holder/ResourceHolder.cpp" afterPath="$PROJECT_DIR$/src/genetic/holder/ResourceHolder.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,11 +30,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Analyser.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Analyser.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/genetic/algorithm/Analyser.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1518">
-              <caret line="98" column="4" lean-forward="true" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="4" />
+            <state relative-caret-position="83">
+              <caret line="36" column="1" lean-forward="false" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
               <folding>
                 <element signature="e#100#119#0" expanded="true" />
                 <element signature="e#584#815#0" expanded="false" />
@@ -46,8 +46,8 @@
       <file leaf-file-name="Analyser.hpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/genetic/algorithm/Analyser.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="27" column="112" lean-forward="false" selection-start-line="27" selection-start-column="112" selection-end-line="27" selection-end-column="112" />
+            <state relative-caret-position="175">
+              <caret line="26" column="68" lean-forward="true" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -93,16 +93,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ResourceHolder.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ResourceHolder.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/genetic/holder/ResourceHolder.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-773">
-              <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+            <state relative-caret-position="192">
+              <caret line="53" column="38" lean-forward="false" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
               <folding>
                 <element signature="e#0#2#0" expanded="false" />
-                <element signature="e#1370#1422#0" expanded="false" />
-                <marker date="1516283296318" expanded="true" signature="0:1422" ph="..." />
+                <element signature="e#100#116#0" expanded="true" />
+                <element signature="e#1507#1559#0" expanded="false" />
+                <marker date="1516286137641" expanded="true" signature="0:1559" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GreedyAlg.hpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GreedyAlg/GreedyAlg.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-262">
+              <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -126,6 +137,7 @@
       <find>available</find>
       <find>cout</find>
       <find>0,</find>
+      <find>Gene</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -145,9 +157,9 @@
         <option value="$PROJECT_DIR$/src/main.cpp" />
         <option value="$PROJECT_DIR$/src/genetic/algorithm/Analyser.hpp" />
         <option value="$PROJECT_DIR$/src/genetic/controller/Main.cpp" />
-        <option value="$PROJECT_DIR$/src/genetic/holder/ResourceHolder.cpp" />
         <option value="$PROJECT_DIR$/src/FileLoader/FileLoader.cpp" />
         <option value="$PROJECT_DIR$/src/genetic/algorithm/Analyser.cpp" />
+        <option value="$PROJECT_DIR$/src/genetic/holder/ResourceHolder.cpp" />
       </list>
     </option>
   </component>
@@ -286,7 +298,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44698000" />
+    <option name="totallyTimeSpent" value="45988000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
@@ -357,7 +369,7 @@
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <condition expression="crap" language="ObjectiveC" />
           <url>file://$PROJECT_DIR$/src/genetic/algorithm/Analyser.cpp</url>
-          <line>132</line>
+          <line>135</line>
           <option name="timeStamp" value="118" />
         </line-breakpoint>
       </breakpoints>
@@ -433,8 +445,9 @@
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="e#0#2#0" expanded="false" />
-            <element signature="e#1370#1422#0" expanded="false" />
-            <marker date="1516283296318" expanded="true" signature="0:1422" ph="..." />
+            <element signature="e#100#116#0" expanded="true" />
+            <element signature="e#1507#1559#0" expanded="false" />
+            <marker date="1516286137641" expanded="true" signature="0:1559" ph="..." />
           </folding>
         </state>
       </provider>
@@ -469,6 +482,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -484,6 +498,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -524,6 +539,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -545,13 +561,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GreedyAlg/GreedyAlg.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -605,14 +615,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Depos/MinGW/mingw32/lib/gcc/i686-w64-mingw32/7.2.0/include/c++/bits/stl_algobase.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -627,10 +629,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/genetic/algorithm/Analyser.hpp">
+    <entry file="file://$PROJECT_DIR$/resources/wi29.tsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="27" column="112" lean-forward="false" selection-start-line="27" selection-start-column="112" selection-end-line="27" selection-end-column="112" />
+        <state relative-caret-position="138">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GreedyAlg/GreedyAlg.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-262">
+          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -645,18 +655,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/genetic/controller/Main.cpp">
+    <entry file="file://$PROJECT_DIR$/src/genetic/algorithm/Analyser.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        <state relative-caret-position="83">
+          <caret line="36" column="1" lean-forward="false" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+          <folding>
+            <element signature="e#100#119#0" expanded="true" />
+            <element signature="e#584#815#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/genetic/algorithm/Analyser.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="26" column="68" lean-forward="true" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/wi29.tsp">
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="92">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -669,25 +690,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/genetic/holder/ResourceHolder.cpp">
+    <entry file="file://$PROJECT_DIR$/src/genetic/controller/Main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-773">
-          <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#2#0" expanded="false" />
-            <element signature="e#1370#1422#0" expanded="false" />
-            <marker date="1516283296318" expanded="true" signature="0:1422" ph="..." />
-          </folding>
+        <state relative-caret-position="276">
+          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/genetic/algorithm/Analyser.cpp">
+    <entry file="file://$PROJECT_DIR$/src/genetic/holder/ResourceHolder.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
-          <caret line="98" column="4" lean-forward="true" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="4" />
+        <state relative-caret-position="192">
+          <caret line="53" column="38" lean-forward="false" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
           <folding>
-            <element signature="e#100#119#0" expanded="true" />
-            <element signature="e#584#815#0" expanded="false" />
+            <element signature="e#0#2#0" expanded="false" />
+            <element signature="e#100#116#0" expanded="true" />
+            <element signature="e#1507#1559#0" expanded="false" />
+            <marker date="1516286137641" expanded="true" signature="0:1559" ph="..." />
           </folding>
         </state>
       </provider>

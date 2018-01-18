@@ -8,12 +8,13 @@
 #include <thread>
 #include "ResourceHolder.hpp"
 #include "../algorithm/Analyser.hpp"
+#include "../../GreedyAlg/GreedyAlg.hpp"
 
 ResourceHolder::ResourceHolder(const Map &map) : map(map)
 {
 	for(auto i = 0u; i<60;i++)
 	{
-		availableGenePools_.push_back(GeneratePool(20));
+		availableGenePools_.push_back(GeneratePool(50));
 	}
 
 	auto it = availableGenePools_.begin();
@@ -30,7 +31,7 @@ std::list<Path> ResourceHolder::GeneratePool(unsigned amount)
 	
 	for (auto i = 0u; i < map.size(); ++i) numbers.push_back(i);
 	
-	for(auto i = amount; i > 0; i--)
+	for(auto i = amount-1; i > 0; i--)
 	{
 		auto temp = numbers;
 		auto countTmp=count;
@@ -48,6 +49,11 @@ std::list<Path> ResourceHolder::GeneratePool(unsigned amount)
 		path.push_back(path.front());
 		result.push_back(path);
 	}
+	
+	GreedyAlgorithm ga;
+	Path p = ga(std::rand()%p.size()-1,getMap());
+	result.push_back(p);
+	
 	return result;
 }
 unsigned int ResourceHolder::getLength()

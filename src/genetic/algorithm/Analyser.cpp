@@ -41,7 +41,10 @@ std::vector<unsigned> Analyser::getContestants()
 	
 	std::vector<unsigned> contestants;
 	
-	for(auto i=0u;i<10;i++)	contestants.push_back(std::rand()%lengths_.size());
+	for(auto i=0u;i<10;i++)
+	{
+		contestants.push_back(std::rand()%lengths_.size());
+	}
 	return contestants;
 }
 std::pair<unsigned, unsigned> Analyser::sortByBestResult(const std::vector<unsigned> &lineUp)
