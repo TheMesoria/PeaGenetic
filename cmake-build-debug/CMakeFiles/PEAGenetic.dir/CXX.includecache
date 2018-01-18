@@ -24,6 +24,34 @@ vector
 memory
 -
 
+D:/Projects/PEAGenetic/src/GreedyAlg/GreedyAlg.cpp
+GreedyAlg.hpp
+D:/Projects/PEAGenetic/src/GreedyAlg/GreedyAlg.hpp
+iostream
+-
+
+D:/Projects/PEAGenetic/src/GreedyAlg/GreedyAlg.hpp
+memory
+-
+algorithm
+-
+list
+-
+../FileLoader/FileLoader.hpp
+D:/Projects/PEAGenetic/src/FileLoader/FileLoader.hpp
+
+D:/Projects/PEAGenetic/src/genetic/algorithm/Analyser.cpp
+iostream
+-
+cmath
+-
+Analyser.hpp
+D:/Projects/PEAGenetic/src/genetic/algorithm/Analyser.hpp
+
+D:/Projects/PEAGenetic/src/genetic/algorithm/Analyser.hpp
+../holder/ResourceHolder.hpp
+D:/Projects/PEAGenetic/src/genetic/holder/ResourceHolder.hpp
+
 D:/Projects/PEAGenetic/src/genetic/controller/Main.cpp
 iostream
 -
@@ -31,6 +59,10 @@ Main.hpp
 D:/Projects/PEAGenetic/src/genetic/controller/Main.hpp
 ../holder/ResourceHolder.hpp
 D:/Projects/PEAGenetic/src/genetic/holder/ResourceHolder.hpp
+../algorithm/Analyser.hpp
+D:/Projects/PEAGenetic/src/genetic/algorithm/Analyser.hpp
+../../GreedyAlg/GreedyAlg.hpp
+D:/Projects/PEAGenetic/src/GreedyAlg/GreedyAlg.hpp
 
 D:/Projects/PEAGenetic/src/genetic/controller/Main.hpp
 
@@ -41,9 +73,13 @@ iostream
 -
 ResourceHolder.hpp
 D:/Projects/PEAGenetic/src/genetic/holder/ResourceHolder.hpp
+../algorithm/Analyser.hpp
+D:/Projects/PEAGenetic/src/genetic/algorithm/Analyser.hpp
 
 D:/Projects/PEAGenetic/src/genetic/holder/ResourceHolder.hpp
 list
+-
+mutex
 -
 ../../FileLoader/FileLoader.hpp
 D:/Projects/PEAGenetic/src/FileLoader/FileLoader.hpp
@@ -55,4 +91,8 @@ FileLoader/FileLoader.hpp
 D:/Projects/PEAGenetic/src/FileLoader/FileLoader.hpp
 genetic/controller/Main.hpp
 D:/Projects/PEAGenetic/src/genetic/controller/Main.hpp
+GreedyAlg/GreedyAlg.hpp
+D:/Projects/PEAGenetic/src/GreedyAlg/GreedyAlg.hpp
+genetic/algorithm/Analyser.hpp
+D:/Projects/PEAGenetic/src/genetic/algorithm/Analyser.hpp
 

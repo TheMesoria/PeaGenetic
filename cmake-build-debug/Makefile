@@ -149,6 +149,33 @@ src/FileLoader/FileLoader.cpp.s:
 	$(MAKE) -f CMakeFiles\PEAGenetic.dir\build.make CMakeFiles/PEAGenetic.dir/src/FileLoader/FileLoader.cpp.s
 .PHONY : src/FileLoader/FileLoader.cpp.s
 
+src/GreedyAlg/GreedyAlg.obj: src/GreedyAlg/GreedyAlg.cpp.obj
+
+.PHONY : src/GreedyAlg/GreedyAlg.obj
+
+# target to build an object file
+src/GreedyAlg/GreedyAlg.cpp.obj:
+	$(MAKE) -f CMakeFiles\PEAGenetic.dir\build.make CMakeFiles/PEAGenetic.dir/src/GreedyAlg/GreedyAlg.cpp.obj
+.PHONY : src/GreedyAlg/GreedyAlg.cpp.obj
+
+src/GreedyAlg/GreedyAlg.i: src/GreedyAlg/GreedyAlg.cpp.i
+
+.PHONY : src/GreedyAlg/GreedyAlg.i
+
+# target to preprocess a source file
+src/GreedyAlg/GreedyAlg.cpp.i:
+	$(MAKE) -f CMakeFiles\PEAGenetic.dir\build.make CMakeFiles/PEAGenetic.dir/src/GreedyAlg/GreedyAlg.cpp.i
+.PHONY : src/GreedyAlg/GreedyAlg.cpp.i
+
+src/GreedyAlg/GreedyAlg.s: src/GreedyAlg/GreedyAlg.cpp.s
+
+.PHONY : src/GreedyAlg/GreedyAlg.s
+
+# target to generate assembly for a file
+src/GreedyAlg/GreedyAlg.cpp.s:
+	$(MAKE) -f CMakeFiles\PEAGenetic.dir\build.make CMakeFiles/PEAGenetic.dir/src/GreedyAlg/GreedyAlg.cpp.s
+.PHONY : src/GreedyAlg/GreedyAlg.cpp.s
+
 src/genetic/algorithm/Analyser.obj: src/genetic/algorithm/Analyser.cpp.obj
 
 .PHONY : src/genetic/algorithm/Analyser.obj
@@ -269,6 +296,9 @@ help:
 	@echo ... src/FileLoader/FileLoader.obj
 	@echo ... src/FileLoader/FileLoader.i
 	@echo ... src/FileLoader/FileLoader.s
+	@echo ... src/GreedyAlg/GreedyAlg.obj
+	@echo ... src/GreedyAlg/GreedyAlg.i
+	@echo ... src/GreedyAlg/GreedyAlg.s
 	@echo ... src/genetic/algorithm/Analyser.obj
 	@echo ... src/genetic/algorithm/Analyser.i
 	@echo ... src/genetic/algorithm/Analyser.s

@@ -86,6 +86,12 @@
 		<Unit filename="D:/Projects/PEAGenetic/src/FileLoader/FileLoader.hpp">
 			<Option target="PEAGenetic"/>
 		</Unit>
+		<Unit filename="D:/Projects/PEAGenetic/src/GreedyAlg/GreedyAlg.cpp">
+			<Option target="PEAGenetic"/>
+		</Unit>
+		<Unit filename="D:/Projects/PEAGenetic/src/GreedyAlg/GreedyAlg.hpp">
+			<Option target="PEAGenetic"/>
+		</Unit>
 		<Unit filename="D:/Projects/PEAGenetic/src/genetic/algorithm/Analyser.cpp">
 			<Option target="PEAGenetic"/>
 		</Unit>

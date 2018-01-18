@@ -6,6 +6,8 @@
 #include <iostream>
 #include "Main.hpp"
 #include "../holder/ResourceHolder.hpp"
+#include "../algorithm/Analyser.hpp"
+#include "../../GreedyAlg/GreedyAlg.hpp"
 
 void Main::HelloWorld()
 {
@@ -13,8 +15,10 @@ void Main::HelloWorld()
 }
 void Main::Start()
 {
+	std::cout << "Starting..\n\n";
 	FileLoader fl;
 	fl.addMap("../resources/wi29.tsp");
+	
 	ResourceHolder rh(fl[0]);
 }
 

@@ -6,13 +6,17 @@
 #include <ctime>
 #include <iostream>
 #include "ResourceHolder.hpp"
+#include "../algorithm/Analyser.hpp"
 
 ResourceHolder::ResourceHolder(const Map &map) : map(map)
 {
-	for(auto i = 0u; i<1000;i++)
+	for(auto i = 0u; i<60;i++)
 	{
-		availableGenePools.push_back(GeneratePool(25));
+		availableGenePools_.push_back(GeneratePool(100));
 	}
+
+	Analyser a(&(*availableGenePools_.begin()),this);
+	a.Start();
 }
 std::list<Path> ResourceHolder::GeneratePool(unsigned amount)
 {
@@ -26,32 +30,33 @@ std::list<Path> ResourceHolder::GeneratePool(unsigned amount)
 	for(auto i = amount; i > 0; i--)
 	{
 		auto temp = numbers;
+		auto countTmp=count;
 		Path path;
-		while(count > 0)
+		while(countTmp > 0)
 		{
-			auto rnd = static_cast<unsigned>(std::rand()%count);
+			auto rnd = static_cast<unsigned>(std::rand()%countTmp);
 			auto it = temp.begin();
 			std::advance(it,rnd);
 			path.push_back(*it);
 			temp.erase(it);
 			
-			count--;
+			countTmp--;
 		}
+		path.push_back(path.front());
 		result.push_back(path);
 	}
-	std::cout << result.size();
 	return result;
 }
-unsigned int ResourceHolder::getLength() const
+unsigned int ResourceHolder::getLength()
 {
-	std::lock_guard<std::mutex> lg(bestPathMutex);
-	return length;
+	std::lock_guard<std::mutex> lg(bestPathMutex_);
+	return length_;
 }
 void ResourceHolder::setBetterResult(Path path, unsigned length)
 {
-	std::lock_guard<std::mutex> lg(bestPathMutex);
-	this->bestPath=path;
-	this->length=length;
+	std::lock_guard<std::mutex> lg(bestPathMutex_);
+	this->bestPath_=path;
+	this->length_=length;
 }
 const Map &ResourceHolder::getMap()
 {

@@ -16,15 +16,15 @@ using Path = std::vector<unsigned>;
 class ResourceHolder
 {
 	Map map;
-	std::list<std::list<Path>> availableGenePools;
+	Path bestPath_;
+	unsigned length_;
 	
-	std::mutex bestPathMutex;
-	Path bestPath;
-	unsigned length;
+	std::list<std::list<Path>> availableGenePools_;
+	std::mutex bestPathMutex_;
 public:
 	explicit ResourceHolder(const Map &map);
 	
-	unsigned int getLength() const;
+	unsigned int getLength();
 	const Map &getMap();
 	void setBetterResult(Path path, unsigned length);
 private:

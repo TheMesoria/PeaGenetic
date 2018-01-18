@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Projects/PEAGenetic/src/FileLoader/FileLoader.cpp" "D:/Projects/PEAGenetic/cmake-build-debug/CMakeFiles/PEAGenetic.dir/src/FileLoader/FileLoader.cpp.obj"
+  "D:/Projects/PEAGenetic/src/GreedyAlg/GreedyAlg.cpp" "D:/Projects/PEAGenetic/cmake-build-debug/CMakeFiles/PEAGenetic.dir/src/GreedyAlg/GreedyAlg.cpp.obj"
   "D:/Projects/PEAGenetic/src/genetic/algorithm/Analyser.cpp" "D:/Projects/PEAGenetic/cmake-build-debug/CMakeFiles/PEAGenetic.dir/src/genetic/algorithm/Analyser.cpp.obj"
   "D:/Projects/PEAGenetic/src/genetic/controller/Main.cpp" "D:/Projects/PEAGenetic/cmake-build-debug/CMakeFiles/PEAGenetic.dir/src/genetic/controller/Main.cpp.obj"
   "D:/Projects/PEAGenetic/src/genetic/holder/ResourceHolder.cpp" "D:/Projects/PEAGenetic/cmake-build-debug/CMakeFiles/PEAGenetic.dir/src/genetic/holder/ResourceHolder.cpp.obj"

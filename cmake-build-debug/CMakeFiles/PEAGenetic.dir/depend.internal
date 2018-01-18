@@ -4,16 +4,31 @@
 CMakeFiles/PEAGenetic.dir/src/FileLoader/FileLoader.cpp.obj
  D:/Projects/PEAGenetic/src/FileLoader/FileLoader.cpp
  D:/Projects/PEAGenetic/src/FileLoader/FileLoader.hpp
+CMakeFiles/PEAGenetic.dir/src/GreedyAlg/GreedyAlg.cpp.obj
+ D:/Projects/PEAGenetic/src/FileLoader/FileLoader.hpp
+ D:/Projects/PEAGenetic/src/GreedyAlg/GreedyAlg.cpp
+ D:/Projects/PEAGenetic/src/GreedyAlg/GreedyAlg.hpp
+CMakeFiles/PEAGenetic.dir/src/genetic/algorithm/Analyser.cpp.obj
+ D:/Projects/PEAGenetic/src/FileLoader/FileLoader.hpp
+ D:/Projects/PEAGenetic/src/genetic/algorithm/Analyser.cpp
+ D:/Projects/PEAGenetic/src/genetic/algorithm/Analyser.hpp
+ D:/Projects/PEAGenetic/src/genetic/holder/ResourceHolder.hpp
 CMakeFiles/PEAGenetic.dir/src/genetic/controller/Main.cpp.obj
  D:/Projects/PEAGenetic/src/FileLoader/FileLoader.hpp
+ D:/Projects/PEAGenetic/src/GreedyAlg/GreedyAlg.hpp
+ D:/Projects/PEAGenetic/src/genetic/algorithm/Analyser.hpp
  D:/Projects/PEAGenetic/src/genetic/controller/Main.cpp
  D:/Projects/PEAGenetic/src/genetic/controller/Main.hpp
  D:/Projects/PEAGenetic/src/genetic/holder/ResourceHolder.hpp
 CMakeFiles/PEAGenetic.dir/src/genetic/holder/ResourceHolder.cpp.obj
  D:/Projects/PEAGenetic/src/FileLoader/FileLoader.hpp
+ D:/Projects/PEAGenetic/src/genetic/algorithm/Analyser.hpp
  D:/Projects/PEAGenetic/src/genetic/holder/ResourceHolder.cpp
  D:/Projects/PEAGenetic/src/genetic/holder/ResourceHolder.hpp
 CMakeFiles/PEAGenetic.dir/src/main.cpp.obj
  D:/Projects/PEAGenetic/src/FileLoader/FileLoader.hpp
+ D:/Projects/PEAGenetic/src/GreedyAlg/GreedyAlg.hpp
+ D:/Projects/PEAGenetic/src/genetic/algorithm/Analyser.hpp
  D:/Projects/PEAGenetic/src/genetic/controller/Main.hpp
+ D:/Projects/PEAGenetic/src/genetic/holder/ResourceHolder.hpp
  D:/Projects/PEAGenetic/src/main.cpp

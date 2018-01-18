@@ -4,16 +4,31 @@
 CMakeFiles/PEAGenetic.dir/src/FileLoader/FileLoader.cpp.obj: ../src/FileLoader/FileLoader.cpp
 CMakeFiles/PEAGenetic.dir/src/FileLoader/FileLoader.cpp.obj: ../src/FileLoader/FileLoader.hpp
 
+CMakeFiles/PEAGenetic.dir/src/GreedyAlg/GreedyAlg.cpp.obj: ../src/FileLoader/FileLoader.hpp
+CMakeFiles/PEAGenetic.dir/src/GreedyAlg/GreedyAlg.cpp.obj: ../src/GreedyAlg/GreedyAlg.cpp
+CMakeFiles/PEAGenetic.dir/src/GreedyAlg/GreedyAlg.cpp.obj: ../src/GreedyAlg/GreedyAlg.hpp
+
+CMakeFiles/PEAGenetic.dir/src/genetic/algorithm/Analyser.cpp.obj: ../src/FileLoader/FileLoader.hpp
+CMakeFiles/PEAGenetic.dir/src/genetic/algorithm/Analyser.cpp.obj: ../src/genetic/algorithm/Analyser.cpp
+CMakeFiles/PEAGenetic.dir/src/genetic/algorithm/Analyser.cpp.obj: ../src/genetic/algorithm/Analyser.hpp
+CMakeFiles/PEAGenetic.dir/src/genetic/algorithm/Analyser.cpp.obj: ../src/genetic/holder/ResourceHolder.hpp
+
 CMakeFiles/PEAGenetic.dir/src/genetic/controller/Main.cpp.obj: ../src/FileLoader/FileLoader.hpp
+CMakeFiles/PEAGenetic.dir/src/genetic/controller/Main.cpp.obj: ../src/GreedyAlg/GreedyAlg.hpp
+CMakeFiles/PEAGenetic.dir/src/genetic/controller/Main.cpp.obj: ../src/genetic/algorithm/Analyser.hpp
 CMakeFiles/PEAGenetic.dir/src/genetic/controller/Main.cpp.obj: ../src/genetic/controller/Main.cpp
 CMakeFiles/PEAGenetic.dir/src/genetic/controller/Main.cpp.obj: ../src/genetic/controller/Main.hpp
 CMakeFiles/PEAGenetic.dir/src/genetic/controller/Main.cpp.obj: ../src/genetic/holder/ResourceHolder.hpp
 
 CMakeFiles/PEAGenetic.dir/src/genetic/holder/ResourceHolder.cpp.obj: ../src/FileLoader/FileLoader.hpp
+CMakeFiles/PEAGenetic.dir/src/genetic/holder/ResourceHolder.cpp.obj: ../src/genetic/algorithm/Analyser.hpp
 CMakeFiles/PEAGenetic.dir/src/genetic/holder/ResourceHolder.cpp.obj: ../src/genetic/holder/ResourceHolder.cpp
 CMakeFiles/PEAGenetic.dir/src/genetic/holder/ResourceHolder.cpp.obj: ../src/genetic/holder/ResourceHolder.hpp
 
 CMakeFiles/PEAGenetic.dir/src/main.cpp.obj: ../src/FileLoader/FileLoader.hpp
+CMakeFiles/PEAGenetic.dir/src/main.cpp.obj: ../src/GreedyAlg/GreedyAlg.hpp
+CMakeFiles/PEAGenetic.dir/src/main.cpp.obj: ../src/genetic/algorithm/Analyser.hpp
 CMakeFiles/PEAGenetic.dir/src/main.cpp.obj: ../src/genetic/controller/Main.hpp
+CMakeFiles/PEAGenetic.dir/src/main.cpp.obj: ../src/genetic/holder/ResourceHolder.hpp
 CMakeFiles/PEAGenetic.dir/src/main.cpp.obj: ../src/main.cpp
 
