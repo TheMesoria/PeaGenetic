@@ -45,6 +45,8 @@ iostream
 -
 cmath
 -
+functional
+-
 Analyser.hpp
 D:/Projects/PEAGenetic/src/genetic/algorithm/Analyser.hpp
 
@@ -70,6 +72,8 @@ D:/Projects/PEAGenetic/src/genetic/holder/ResourceHolder.cpp
 ctime
 -
 iostream
+-
+thread
 -
 ResourceHolder.hpp
 D:/Projects/PEAGenetic/src/genetic/holder/ResourceHolder.hpp

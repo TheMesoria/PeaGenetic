@@ -18,15 +18,15 @@ class Analyser
 	
 	std::vector<unsigned> getContestants();
 	std::pair<unsigned, unsigned> sortByBestResult(const std::vector<unsigned>& lineUp);
-	std::pair<Path,Path> OX(const std::pair<Path,Path>& parents);
-	
+	std::vector<Path> OX(const std::pair<unsigned, unsigned>& parents);
 public:
+	
 	Analyser(std::list<Path>* pool, ResourceHolder* rh);
 	void Start();
 	
-	
-	static unsigned GetLength(const Path &path, ResourceHolder* rh);
 	static const void DrawPath(const Path &path, const unsigned& lim);
+	static void DrawBeautiful(const Path &path, const unsigned& lim, ResourceHolder* rh, unsigned generation = 0);
+	static unsigned GetLength(const Path &path, ResourceHolder* rh);
 };
 
 

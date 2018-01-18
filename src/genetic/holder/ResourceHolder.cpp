@@ -5,6 +5,7 @@
 
 #include <ctime>
 #include <iostream>
+#include <thread>
 #include "ResourceHolder.hpp"
 #include "../algorithm/Analyser.hpp"
 
@@ -12,11 +13,13 @@ ResourceHolder::ResourceHolder(const Map &map) : map(map)
 {
 	for(auto i = 0u; i<60;i++)
 	{
-		availableGenePools_.push_back(GeneratePool(100));
+		availableGenePools_.push_back(GeneratePool(20));
 	}
 
-	Analyser a(&(*availableGenePools_.begin()),this);
+	auto it = availableGenePools_.begin();
+	Analyser a(&(*it),this);
 	a.Start();
+	
 }
 std::list<Path> ResourceHolder::GeneratePool(unsigned amount)
 {
