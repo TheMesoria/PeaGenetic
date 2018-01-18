@@ -79,6 +79,8 @@ ResourceHolder.hpp
 /mnt/d/Projects/PEAGenetic/src/genetic/holder/ResourceHolder.hpp
 ../algorithm/Analyser.hpp
 /mnt/d/Projects/PEAGenetic/src/genetic/algorithm/Analyser.hpp
+../../GreedyAlg/GreedyAlg.hpp
+/mnt/d/Projects/PEAGenetic/src/GreedyAlg/GreedyAlg.hpp
 
 /mnt/d/Projects/PEAGenetic/src/genetic/holder/ResourceHolder.hpp
 list

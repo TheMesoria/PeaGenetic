@@ -21,6 +21,7 @@ CMakeFiles/PEAGenetic.dir/src/genetic/controller/Main.cpp.o: ../src/genetic/cont
 CMakeFiles/PEAGenetic.dir/src/genetic/controller/Main.cpp.o: ../src/genetic/holder/ResourceHolder.hpp
 
 CMakeFiles/PEAGenetic.dir/src/genetic/holder/ResourceHolder.cpp.o: ../src/FileLoader/FileLoader.hpp
+CMakeFiles/PEAGenetic.dir/src/genetic/holder/ResourceHolder.cpp.o: ../src/GreedyAlg/GreedyAlg.hpp
 CMakeFiles/PEAGenetic.dir/src/genetic/holder/ResourceHolder.cpp.o: ../src/genetic/algorithm/Analyser.hpp
 CMakeFiles/PEAGenetic.dir/src/genetic/holder/ResourceHolder.cpp.o: ../src/genetic/holder/ResourceHolder.cpp
 CMakeFiles/PEAGenetic.dir/src/genetic/holder/ResourceHolder.cpp.o: ../src/genetic/holder/ResourceHolder.hpp
