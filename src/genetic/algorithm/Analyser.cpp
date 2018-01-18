@@ -179,7 +179,7 @@ void Analyser::Start()
 //
 //	calculate(parent,child,start+size,parent.size()-size);
 	
-	for (int i = 0; i < 9999; i++)
+	for (int i = 0; i < 999999; i++)
 	{
 		auto x = sortByBestResult(getContestants());
 

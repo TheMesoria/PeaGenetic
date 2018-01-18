@@ -20,10 +20,12 @@ void FileLoader::addMap(std::string path)
 	{
 		std::string tmp;
 		std::getline(file,tmp);
-		//std::cout<< tmp << std::endl << std::boolalpha << tmp.compare("NODE_COORD_SECTION") << std::endl;
-		//std::cout<< path << std::endl;
+//		std::cout<< tmp << std::endl << std::boolalpha << (tmp == "NODE_COORD_SECTION") << std::endl;
+//		std::cout << tmp.size() <<std::endl;
+//		std::cout << ((std::string)"NODE_COORD_SECTION").size() <<std::endl;
+//		//std::cout<< path << std::endl;
 		//if(tmp.compare("NODE_COORD_SECTION"))
-		if(tmp=="NODE_COORD_SECTION")
+		if(tmp.find("NODE_COORD_SECTION") != std::string::npos)
 		{
 			loadCoordPoints(file);
 			loadPointedMap(availableCoordMapVector_.back());

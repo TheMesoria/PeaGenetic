@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/PEAGenetic.dir/src/main.cpp.o CMakeFiles/PEAGenetic.dir/src/FileLoader/FileLoader.cpp.o CMakeFiles/PEAGenetic.dir/src/genetic/controller/Main.cpp.o CMakeFiles/PEAGenetic.dir/src/genetic/holder/ResourceHolder.cpp.o CMakeFiles/PEAGenetic.dir/src/genetic/algorithm/Analyser.cpp.o CMakeFiles/PEAGenetic.dir/src/GreedyAlg/GreedyAlg.cpp.o  -o PEAGenetic 
